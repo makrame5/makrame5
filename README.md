@@ -1,5 +1,5 @@
 <h1 align="center">👋 Hello, I'm HIMEDI Makrame</h1>
-<h3 align="center">💻 Digital Health Engineer | 🏥 Medical Data Science Enthusiast</h3>
+<h3 align="center">💻 Digital Health Engineer | 🏥 Medical Data Science & Data Engineering Enthusiast</h3>
 
 <p align="center">
   <i>Bridging healthcare and technology through data-driven solutions</i>
@@ -15,7 +15,30 @@
 
 ---
 
-### 🔭 Current Project
+## 🏆 Highlighted Projects
+
+<div align="center">
+
+| Project | Description | Tech Stack |
+|---------|-------------|------------|
+| **HealthConnect** | Telemedicine Station integrating connected biomedical sensors, artificial intelligence and video consultation. Data
+is analyzed in real-time and displayed to doctors to detect anomalies and assist physicians during secure teleconsul-
+tations. The solution also includes messaging between doctors for collaborative networking, appointment scheduling
+and management, data visualization, and direct access to pharmacies and hospitals via interactive map. | `Flask` `Jinja` `MySQL` `MongoDB` `Kafka``WebRTC` `Socket.Io` `SQLAlchemy`.|
+| **VitalStream** |Real-Time Big Data Platform for Healthcare with ISO 27001 Security AnalysisDesigned and deployed a real-time Big Data pipeline simulating hospital IT infrastructure. Used Apache Kafka
+for real-time patient data ingestion and Apache Spark for stream processing. Stored processed data in MongoDB
+and built live dashboards in Grafana for vital signs visualization. Conducted ISO 27001 security analysis with risk
+assessment and proposed data protection measures | Apache Kafka, Apache Spark, MongoDB, Grafana, HDFS, ISO 27001, Data Governance|
+| **SmartOphta** | Intelligent Diagnosis of Retinal Pathologies from OCT Images :roject to automate diagnosis of retinal diseases from OCT images. The Deep Learning based system early detects
+CNV, DME, drusen and normal retinas. It generates predictions with personalized medical recommendations to assist ophthalmologists in their decisions. | Python, TensorFlow, Keras, Scikit-learn, NumPy, Pandas, CNN MobileNetV3Large, Transfer Learning |
+| **DrowsyDetect** | AI-Powered Embedded Platform for Monitoring Sleep Apnea CPAP Treatment Efficacy. A non-invasive system that monitors daytime sleepiness by analyzing visual biomarkers in real time. It enables precise longitudinal tracking of CPAP treatment effectiveness and helps prevent risks associated with sleep apnea. |Python, SKlearn, Pandas, Numpy, MediaPipe, OpenCV, TensorFlow, Streamlit.  |
+
+
+</div>
+
+---
+
+### 🔭 Currently Working On
 **HealthConnect - Telemedicine Platform**  
 A comprehensive telemedicine solution integrating patient management, remote monitoring, and data analytics for healthcare providers.
 
@@ -23,48 +46,66 @@ A comprehensive telemedicine solution integrating patient management, remote mon
 
 ### 📚 Portfolio & Resources
 - 🌐 **Portfolio:** [https://himedi-makrame-5zhu.vercel.app/](https://himedi-makrame-5zhu.vercel.app/)
-- 📝 **Technical Articles:** [LinkedIn Profile](https://www.linkedin.com/in/makrame-himedi/)
-- 📄 **Resume/CV:** [View Online](https://himedi-makrame-5zhu.vercel.app/)
+- 📝 **Linkdin Profil:** [LinkedIn Profile](https://www.linkedin.com/in/makrame-himedi/)
+
 
 ---
 
 ### 🛠️ Technical Stack
 
-#### **Healthcare & Data Science**
-<p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/>
+#### **📊 Data Science & Machine Learning**
+<p align="left">
   <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit-learn" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="40"/>
   <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/>
+  <img src="https://matplotlib.org/_static/images/logo2.svg" alt="matplotlib" width="40" height="40"/>
   <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/>
 </p>
+<p><strong>TensorFlow · Keras · Scikit-learn · NumPy · Pandas · Seaborn & Matplotlib · MediaPipe · OpenCV · CNN MobileNetV3Large · U-Net</strong></p>
 
-#### **Web Development**
-<p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
+#### **⚙️ Data Engineering & Big Data**
+<p align="left">
+  <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/apache_spark/apache_spark-icon.svg" alt="spark" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/apache_airflow/apache_airflow-icon.svg" alt="airflow" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/apache_hadoop/apache_hadoop-icon.svg" alt="hadoop" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" alt="bash" width="40" height="40"/>
+</p>
+<p><strong>Kafka · Spark · Apache AirFlow · Hadoop · Shell/Linux · HIPAA Compliance · ISO 27001</strong></p>
+
+#### **🌐 Web Development & Frontend**
+<p align="left">
+  <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/>
+  <img src="https://streamlit.io/images/brand/streamlit-mark-color.svg" alt="streamlit" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/>
 </p>
+<p><strong>Flask · Streamlit · Bootstrap · Jinja2 · HTML5 · CSS3</strong></p>
 
-#### **Databases & Backend**
-<p>
+#### **🗄️ Databases & Data Management**
+<p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
-  <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>
   <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/>
+  <img src="https://www.sqlalchemy.org/img/sqla_logo.png" alt="sqlalchemy" width="40" height="40"/>
 </p>
+<p><strong>MySQL · PostgreSQL · MongoDB · SQLite · SQLAlchemy</strong></p>
 
-#### **Tools & Others**
-<p>
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/arduino-1.svg" alt="arduino" width="40" height="40"/>
+#### **📡 IoT Protocols & Data Collection**
+<p align="left">
+  <img src="https://www.vectorlogo.zone/logos/mqtt/mqtt-icon.svg" alt="mqtt" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/websocket/websocket-icon.svg" alt="websocket" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/coap/coap-icon.svg" alt="coap" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="amqp" width="40" height="40"/>
+  <img src="https://www.crummy.com/software/BeautifulSoup/bs4/doc/_images/6.1.1.jpg" alt="beautifulsoup" width="40" height="40"/>
 </p>
+<p><strong>IoT Protocols: MQTT · WebSocket · Kafka · CoAP · AMQP</strong><br>
+<strong>Data Collection: BeautifulSoup · REST APIs · Web Scraping</strong></p>
 
 ---
 
