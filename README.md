@@ -21,17 +21,12 @@
 
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
-| **HealthConnect** | Telemedicine Station integrating connected biomedical sensors, artificial intelligence and video consultation. Data
-is analyzed in real-time and displayed to doctors to detect anomalies and assist physicians during secure teleconsul-
-tations. The solution also includes messaging between doctors for collaborative networking, appointment scheduling
-and management, data visualization, and direct access to pharmacies and hospitals via interactive map. | `Flask` `Jinja` `MySQL` `MongoDB` `Kafka``WebRTC` `Socket.Io` `SQLAlchemy`.|
-| **VitalStream** |Real-Time Big Data Platform for Healthcare with ISO 27001 Security AnalysisDesigned and deployed a real-time Big Data pipeline simulating hospital IT infrastructure. Used Apache Kafka
-for real-time patient data ingestion and Apache Spark for stream processing. Stored processed data in MongoDB
-and built live dashboards in Grafana for vital signs visualization. Conducted ISO 27001 security analysis with risk
-assessment and proposed data protection measures | Apache Kafka, Apache Spark, MongoDB, Grafana, HDFS, ISO 27001, Data Governance|
-| **SmartOphta** | Intelligent Diagnosis of Retinal Pathologies from OCT Images :roject to automate diagnosis of retinal diseases from OCT images. The Deep Learning based system early detects
-CNV, DME, drusen and normal retinas. It generates predictions with personalized medical recommendations to assist ophthalmologists in their decisions. | Python, TensorFlow, Keras, Scikit-learn, NumPy, Pandas, CNN MobileNetV3Large, Transfer Learning |
-| **DrowsyDetect** | AI-Powered Embedded Platform for Monitoring Sleep Apnea CPAP Treatment Efficacy. A non-invasive system that monitors daytime sleepiness by analyzing visual biomarkers in real time. It enables precise longitudinal tracking of CPAP treatment effectiveness and helps prevent risks associated with sleep apnea. |Python, SKlearn, Pandas, Numpy, MediaPipe, OpenCV, TensorFlow, Streamlit.  |
+| **🏥 HealthConnect** | **Telemedicine Station** integrating connected biomedical sensors, AI and video consultation. Data is analyzed in real-time and displayed to doctors to detect anomalies during secure teleconsultations. Includes messaging between doctors (tele-expertise), appointment scheduling, data visualization, and direct access to healthcare facilities via interactive map. | `Flask` `Jinja2` `MySQL` `MongoDB` `Kafka` `WebRTC` `Socket.IO` `SQLAlchemy` `Bootstrap` |
+| **📡 VitalStream** | **Real-Time Big Data Platform for Healthcare** with ISO 27001 Security Analysis. Designed and deployed a real-time Big Data pipeline simulating hospital IT infrastructure. Used Apache Kafka for patient data ingestion and Apache Spark for stream processing. Stored data in MongoDB with live dashboards in Grafana for vital signs visualization. Conducted ISO 27001 security analysis with risk assessment. | `Apache Kafka` `Apache Spark` `MongoDB` `Grafana` `HDFS` `Python` `Docker` |
+| **👁️ SmartOphtha** | **Intelligent Diagnosis of Retinal Pathologies from OCT Images**. Deep Learning system for early detection of CNV, DME, drusen and normal retinas from OCT images. Generates predictions with personalized medical recommendations to assist ophthalmologists in clinical decisions. | `Python` `TensorFlow` `Keras` `scikit-learn` `NumPy` `Pandas` `OpenCV` `CNN MobileNetV3Large` `Transfer Learning` |
+| **😴 DrowsyDetect** | **AI-Powered Embedded Platform for Monitoring Sleep Apnea CPAP Treatment Efficacy**. Non-invasive system monitoring daytime sleepiness by analyzing visual biomarkers in real-time. Enables precise longitudinal tracking of CPAP treatment effectiveness and helps prevent risks associated with sleep apnea. | `Python` `scikit-learn` `Pandas` `NumPy` `MediaPipe` `OpenCV` `TensorFlow` `Streamlit` `Flask` |
+
+</div>
 
 
 </div>
@@ -39,8 +34,13 @@ CNV, DME, drusen and normal retinas. It generates predictions with personalized 
 ---
 
 ### 🔭 Currently Working On
-**HealthConnect - Telemedicine Platform**  
-A comprehensive telemedicine solution integrating patient management, remote monitoring, and data analytics for healthcare providers.
+**🏥 HealthConnect - Telemedicine Station**  
+A comprehensive telemedicine platform integrating patient management, remote monitoring, and video consultation with data analytics for healthcare providers. We're developing an **AI Agent** that autonomously manages the platform's operations including:
+- **Doctor scheduling** optimization
+- **Patient appointment** coordination
+- **Priority management** and triage system
+- **Queue management** for consultations
+- **Real-time anomaly detection** from biomedical sensors
 
 ---
 
