@@ -111,7 +111,10 @@ A comprehensive telemedicine platform integrating patient management, remote mon
 
 ### 📊 GitHub Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=makrame5&show_icons=true&count_private=true&hide=issues&theme=radical&hide_border=true" />
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=makrame5&show_icons=true&locale=en&layout=compact&theme=radical" alt="makrame5" />
+  <img src="https://github-profile-trophy.vercel.app/?username=makrame5&theme=onedark&column=7" alt="makrame5" />
+</p>
 ---
 
 ### 📫 Connect With Me
